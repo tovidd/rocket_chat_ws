@@ -80,9 +80,9 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(80, () => {
-  console.log('listening on *:80');
-});
+// server.listen(80, () => {
+//   console.log('listening on *:80');
+// });
 
 // https://socket.io/get-started/chat
 // https://taycodes.dev/building-a-realtime-chat-app-with-flutter-nodejs-and-socketio
